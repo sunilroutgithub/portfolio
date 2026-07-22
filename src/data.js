@@ -1,7 +1,7 @@
 export const personalData = {
   name: "Sunil Kumar Rout",
   title: "AI Engineer",
-  bio: "AI Engineer with 2.6+ years in safety-critical systems and 5 shipped Generative AI projects. Specializing in LLM Applications, RAG Pipelines, LangGraph Agents, and Multimodal AI. Open to remote/hybrid/onsite opportunities worldwide.",
+  bio: "AI Engineer with 1 year 11 months in safety-critical systems and 5 shipped Generative AI projects. Specializing in LLM Applications, RAG Pipelines, LangGraph Agents, and Multimodal AI. Open to remote/hybrid/onsite opportunities worldwide.",
   email: "sunilrout49057@gmail.com",
   github: "https://github.com/sunilroutgithub",
   linkedin: "https://linkedin.com/in/sunil9938",
