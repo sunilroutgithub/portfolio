@@ -210,7 +210,7 @@ function App() {
             <a href={personalData.twitter} target="_blank" className="text-gray-400 hover:text-sky-400 transition hover:scale-110"> <FaTwitter /> </a>
             <a href={`mailto:${personalData.email}`} className="text-gray-400 hover:text-green-400 transition hover:scale-110"> <FaEnvelope /> </a>
           </div>
-          <p className="text-gray-500 text-sm">© 2026 {personalData.name}. Built with ❤️ · Open to remote opportunities worldwide 🌍</p>
+          <p className="text-gray-500 text-sm">© 2026 {personalData.name}. Built with ❤️ · Open to remote/hybrid/onsite opportunities worldwide 🌍</p>
         </div>
       </footer>
 
