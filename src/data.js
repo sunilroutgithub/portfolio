@@ -1,7 +1,7 @@
 export const personalData = {
   name: "Sunil Kumar Rout",
   title: "AI Engineer",
-  bio: "AI Engineer with 1 year 11 months in safety-critical systems and 5 shipped Generative AI projects. Specializing in LLM Applications, RAG Pipelines, LangGraph Agents, and Multimodal AI. Open to remote/hybrid/onsite opportunities worldwide.",
+  bio: "AI Engineer with 1 year 11 months in safety-critical systems and 6 shipped Generative AI projects. Specializing in LLM Applications, RAG Pipelines, LangGraph Agents, and Multimodal AI. Open to remote/hybrid/onsite opportunities worldwide.",
   email: "sunilrout49057@gmail.com",
   github: "https://github.com/sunilroutgithub",
   linkedin: "https://linkedin.com/in/sunil9938",
@@ -31,6 +31,15 @@ export const skills = [
 export const projects = [
   {
     id: 1,
+    title: "ClinicOps AI: Healthcare Admin Automation",
+    description: "AI assistant for small clinics: classifies messages, proposes appointment slots from natural-language requests, and extracts fields from insurance PDFs. Emergencies and uncertain cases go to a human review queue, and every action is audit-logged.",
+    tech: ["Python", "FastAPI", "Gemini API", "SQLAlchemy", "pytest", "GitHub Actions", "Render"],
+    github: "https://github.com/sunilroutgithub/clinicops-ai",
+    live: "https://clinicops-ai.onrender.com/ui",
+    image: "https://via.placeholder.com/600x400/1a1a2e/e74c3c?text=ClinicOps+AI"
+  },
+  {
+    id: 2,
     title: "RAG-Powered Document Q&A Chatbot",
     description: "End-to-end RAG pipeline with PDF/DOCX/TXT ingestion, FAISS vector store, and Groq LLaMA3. Reduces hallucination by 40% with ~90% answer relevance.",
     tech: ["FastAPI", "LangChain", "FAISS", "Groq LLaMA3", "Docker", "Render"],
@@ -39,7 +48,7 @@ export const projects = [
     image: "https://via.placeholder.com/600x400/1a1a2e/4a9eff?text=RAG+Chatbot"
   },
   {
-    id: 2,
+    id: 3,
     title: "Repo Doc Agent - AI Code Documentation",
     description: "ReAct agent that reads GitHub repos, generates Google-style docstrings and pytest tests, and autonomously opens PRs. Cuts documentation time by 93%.",
     tech: ["Python", "LangChain", "LangGraph", "Groq LLM", "PyGithub", "pytest"],
@@ -48,7 +57,7 @@ export const projects = [
     image: "https://via.placeholder.com/600x400/1a1a2e/9b59b6?text=Repo+Doc+Agent"
   },
   {
-    id: 3,
+    id: 4,
     title: "Multimodal Product Description Generator",
     description: "AI application that generates product descriptions from images in three tone variations (playful, professional, concise) for e-commerce automation.",
     tech: ["Groq Vision AI", "FastAPI", "Docker", "Hugging Face", "GitHub Actions"],
@@ -57,7 +66,7 @@ export const projects = [
     image: "https://via.placeholder.com/600x400/1a1a2e/2ecc71?text=Multimodal+AI"
   },
   {
-    id: 4,
+    id: 5,
     title: "Fine-Tuned Sentiment Classifier (LoRA)",
     description: "Fine-tuned DistilBERT with LoRA on 2,000 Amazon reviews, achieving 87.8% accuracy with only 1.09% trainable parameters. Outperforms baseline by +6.8 points.",
     tech: ["Hugging Face", "LoRA/PEFT", "DistilBERT", "FastAPI", "Docker"],
@@ -66,7 +75,7 @@ export const projects = [
     image: "https://via.placeholder.com/600x400/1a1a2e/e74c3c?text=LoRA+Fine-Tuning"
   },
   {
-    id: 5,
+    id: 6,
     title: "AI Resume Screener API",
     description: "ATS screener that embeds JDs and resumes in ChromaDB, ranks candidates by semantic similarity with LLM reasoning, and provides interview question suggestions.",
     tech: ["Groq API", "ChromaDB", "sentence-transformers", "FastAPI", "Docker"],
