@@ -71,11 +71,11 @@ function App() {
           </div>
           <div className="mt-12 flex justify-center gap-8 text-sm">
             <div className="text-center">
-              <div className="text-2xl font-bold text-blue-400">5</div>
+              <div className="text-2xl font-bold text-blue-400">6</div>
               <div className="text-gray-500">AI Projects</div>
             </div>
             <div className="text-center border-l border-white/10 pl-8">
-              <div className="text-2xl font-bold text-purple-400">2.6+</div>
+              <div className="text-2xl font-bold text-purple-400">2y 3m</div>
               <div className="text-gray-500">Years Experience</div>
             </div>
             <div className="text-center border-l border-white/10 pl-8">

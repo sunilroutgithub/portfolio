@@ -1,12 +1,12 @@
 export const personalData = {
   name: "Sunil Kumar Rout",
   title: "AI Engineer",
-  bio: "AI Engineer with 1 year 11 months in safety-critical systems and 6 shipped Generative AI projects. Specializing in LLM Applications, RAG Pipelines, LangGraph Agents, and Multimodal AI. Open to remote/hybrid/onsite opportunities worldwide.",
+  bio: "AI Engineer with 2 years 3 months of software engineering experience in safety-critical railway systems, now building LLM applications with evaluation, testing and human review built in. Shipped 6 Generative AI projects...",
   email: "sunilrout49057@gmail.com",
   github: "https://github.com/sunilroutgithub",
   linkedin: "https://linkedin.com/in/sunil9938",
   twitter: "https://twitter.com/sunilroutgithub",
-  resumeLink: "https://drive.google.com/uc?export=download&id=12CsyrCa3loQ3cIwas-pI61jpYLSvaWEv",
+  resumeLink: "https://drive.google.com/file/d/1nTOuf3bJtnPV439sFhPatENY7VH-9Wye/view?usp=drive_link",
   profileImage: "https://via.placeholder.com/400",
   phone: "+91-88478 18535",
   location: "Bengaluru, India",
@@ -18,14 +18,14 @@ export const skills = [
   { name: "FastAPI", icon: "⚡" },
   { name: "LangChain", icon: "🔗" },
   { name: "LangGraph", icon: "🤖" },
+  { name: "CrewAI", icon: "👥" },
+  { name: "Gemini API", icon: "💎" },
   { name: "Groq AI (LLaMA3)", icon: "🦙" },
   { name: "Hugging Face", icon: "🤗" },
   { name: "Docker", icon: "🐳" },
   { name: "RAG Pipelines", icon: "📚" },
   { name: "Vector DB (FAISS)", icon: "🔍" },
-  { name: "LoRA Fine-Tuning", icon: "🎯" },
-  { name: "PyTorch", icon: "🔥" },
-  { name: "CI/CD", icon: "🚀" }
+  { name: "AWS (EC2, S3, Lambda)", icon: "☁️" }
 ];
 
 export const projects = [
@@ -89,13 +89,13 @@ export const experience = [
   {
     company: "G.G. Tronics India Pvt. Ltd.",
     role: "Associate Software Engineer",
-    period: "Jan 2024 - Present",
+    period: "Sep 2024 - Present",
     location: "Bengaluru, India",
     description: [
-      "Built real-time embedded software for 12+ live railway signalling sites, achieving 99% algorithmic accuracy on a mission-critical train detection module.",
-      "Automated build verification and log analysis with Python, cutting manual QA effort by ~30%.",
-      "Authored architecture docs, deployment runbooks, and interface specs for cross-functional and remote stakeholders.",
-      "Delivered in Agile/Scrum with Git branching, pull requests, and code review across distributed teams."
+      "Built MSDAC-VDU modules for real-time track views, deployed at 12+ sites with ~99% train-detection accuracy.",
+      "Automated build verification and log analysis in Python, cutting manual QA effort by ~30%.",
+      "Owned module delivery end-to-end, coordinating with field teams across multiple sites and time zones.",
+      "Wrote architecture and deployment docs; worked in Agile Git workflows with PR-based reviews."
     ]
   }
 ];
